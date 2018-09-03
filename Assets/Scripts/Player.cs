@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// Added Both Horizontal and Vertical Controls to this player
 		float horizontalInput = Input.GetAxis("Horizontal");
 		float verticalInput = Input.GetAxis("Vertical");
 		Vector3 direction = new Vector3(horizontalInput, verticalInput, 0);
